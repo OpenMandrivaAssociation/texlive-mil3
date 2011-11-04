@@ -1,3 +1,9 @@
+# revision 21677
+# category Package
+# catalog-ctan /info/examples/mil3
+# catalog-date 2011-03-10 20:26:29 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-mil3
 Version:	20110310
 Release:	1
@@ -56,6 +62,7 @@ Gratzer's book.
 %doc %{_texmfdistdir}/doc/latex/mil3/template.bib
 %doc %{_texmfdistdir}/doc/latex/mil3/textenv.tpl
 %doc %{_texmfdistdir}/doc/latex/mil3/topmat.tpl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ Gratzer's book.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
