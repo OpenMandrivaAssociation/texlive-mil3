@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-mil3
 Version:	20110310
-Release:	1
+Release:	2
 Summary:	Samples from Math into LaTeX, third edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/mil3
