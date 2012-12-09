@@ -70,3 +70,17 @@ Gratzer's book.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110310-2
++ Revision: 753990
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110310-1
++ Revision: 719033
+- texlive-mil3
+- texlive-mil3
+- texlive-mil3
+- texlive-mil3
+
