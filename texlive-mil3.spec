@@ -9,7 +9,7 @@ Version:	20110310
 Release:	12
 Summary:	Samples from Math into LaTeX, third edition
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/mil3
+URL:		https://www.ctan.org/tex-archive/info/examples/mil3
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mil3.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mil3.doc.tar.xz
